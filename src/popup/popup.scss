@@ -1,0 +1,116 @@
+ @use 'base.scss';
+
+.from-design{
+    width: base.$width_4;
+    border:base.$boder_2;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fromcontant{
+    display:base.$display_3;
+
+}
+.right-side{
+    width:50%;
+    margin-left: 50px;
+    font-size: 20px;
+}
+
+
+.name-part{
+    display: flex;
+  text-align: center;
+  margin-left: 10%;
+}
+
+.right-s{
+    margin-left: 20%;
+}
+.nameclass{
+    margin: 0;
+    margin-left: 80px;
+    font-size: 18px;
+    margin-bottom: 10px;
+
+}
+
+.input-part{
+    margin-top: 50px;
+}
+
+.input-name{
+    display: flex;
+    font-size: 10px;
+    margin-top: 5px;
+}
+
+
+.emailname{
+    margin-left: 80px;
+    margin-top: base.$margin_5;
+}
+
+.email-input{
+    margin-left: 80px;
+}
+
+.emailadrees{
+    color: rgb(168, 168, 168);
+    margin: 0%;
+    margin-left: 10%;
+}
+
+.phonecall{
+    margin-left: 80px;
+    margin-top: base.$margin_5;
+}
+
+%text-shared{
+    margin-left: 80px;
+}
+
+
+.input-call{
+    @extend %text-shared;
+}
+
+
+.companyname{
+    margin-left: 80px;
+    margin-top: base.$margin_5;
+}
+
+.input-name{
+    @extend %text-shared; 
+}
+
+.redio-name{
+    margin-left: 80px;
+    margin-top: base.$margin_5;
+}
+
+.redio-button{
+    margin-left: 80px;
+    margin-bottom: 30px;
+}
+
+.redio-right{
+    margin-left: 50px;
+}
+
+.submit-button{
+    background-color:red;
+    width: 20%;
+    text-align: center;
+    margin-left: 40%;
+    padding: 18px;
+    color: aliceblue;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 25px;
+}
+
+.submit-button:hover{
+    background-color: rgb(231, 2, 2);
+}
